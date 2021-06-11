@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+}
+
+.encabezado-redes-sociales{
+    background-color: #10505c;
+    height: 60px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.encabezado-redes-sociales i1{
+    color: rgb(22, 0, 224);
+}
+
+.encabezado-redes-sociales i2{
+    background-image: linear-gradient(rgb(44, 6, 116),rgb(190, 9, 48), rgb(230, 171, 10));
+}
+
+.encabezado-redes-sociales i3{
+    color: rgb(251, 255, 0);
+}
+
+.encabezado-redes-sociales i5{
+    color: #0053ee;
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 25px;
+    width: 25px;
+}
+
+
+nav {
+    height: 80px;
+    background-color: rgb(203,255,246);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-menu-ul li{
+    margin-right: 20px;
+    
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: rgb(2, 2, 48);
+    font-size: 20px;
+}
+
+.tras{
+    height: 640px;
+    background-image: url("Imagenes/Battlefield\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.55%;
+    height: 800px;
+}
+
+
+
+.main-section{
+    color: white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+.footer{
+    height: 60px;
+    background-image: linear-gradient(#0F2027, #203A43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Teko';
+}
+
+.proyectos-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center */
+    margin-top: 50px;
+}
+
+.proyectos-imagen{
+    width: 600%;
+}
+
+.proyectos-imagen img{
+    width: 50%;
+}
+
+.informacion{
+    font-family: 'Teko';
+    /margin-left: 50px;/
+}
+
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+
+
+
+.blog-titulo{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.blog-titulo h1{
+    font-family: 'Teko';
+    font-size: 100px;
+    background-image: linear-gradient(to right,#e6e6e6,#f5112b,#230cf0);
+    margin: 0px;
+    border: solid;
+
+}
+
+.blog-titulo p{
+        font-size: 20px;
+        color: rgb(223, 238, 13);
+        width: 800px;
+        background-color: rgb(231, 15, 213);
+        border: double;
+    }
+
+.blog-cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-contenido{
+    width: 30%;
+}
+
+.blog-contenido p{
+    text-align: justify;
+}
+
+.blog-imagen{
+    width: 30%;
+}
+
+.blog-imagen img{
+    width: 100%;
+}
